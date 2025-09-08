@@ -6,6 +6,8 @@ article {
     font-size: 10px;
 }
 
-cuerpo {
-    
+h2 {
+
+    background-color: orange;
+    border: 10px dotted black
 }
