@@ -1,0 +1,13 @@
+article {
+
+    background-color: orange;
+    border: 2px dotted black;
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+h2 {
+
+    background-color: orange;
+    border: 10px dotted black
+}
