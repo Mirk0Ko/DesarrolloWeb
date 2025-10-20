@@ -36,6 +36,12 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     nombreInput.addEventListener('focus', () => toggleError(nombreInput, '', true));
 
+    nombreInput.addEventListener('input', () => {
+        const nombre = nombreInput.value.trim().toUpperCase();
+        tituloFormulario.textContent = `HOLA ${nombre || ''}`;
+        if (!nombre) tituloFormulario.textContent = 'HOLA';
+    });
+
     // --- Email ---
     const emailInput = document.getElementById('email');
     emailInput.addEventListener('blur', () => {
