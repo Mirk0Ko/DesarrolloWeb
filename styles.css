@@ -63,7 +63,18 @@ h3{
  
 }
 
+form{
 
+  border: 4px solid black;
+  background-color: brown;
+  font-size: 30px;
+  flex-flow: wrap-reverse;
+  text-align: flex-end;
+  margin-top: 15px;
+  height: 100px;
+  width: 1890px;
+
+}
 
 
 
